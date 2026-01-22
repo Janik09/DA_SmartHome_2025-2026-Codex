@@ -10,26 +10,38 @@ Im Rahmen unserer Diplomarbeit entwickeln wir ein modellbasiertes SmartHome-Syst
 
 ### Projektziele
 
-- Aufbau eines funktionstüchtigen SmartHome-Modellhauses mit realitätsnaher Steuerung.
-- Integration von Home Assistant zur Steuerung und Visualisierung.
-- Anbindung von Sensoren (Temperatur, Helligkeit, Türkontakt) und Aktoren (Licht, Motoren, Heizung) via MQTT.
-- Visualisierung und Bedienung über Node-RED.
-- Verwaltung der Containerumgebung über Portainer.
-- Dokumentation der Einrichtung und Konfiguration.
-- Vorbereitung für später mögliche Erweiterungen wie Fernzugriff, Spracherkennung etc.
+- Hardware
+  - Aufbau eines funktionstüchtigen SmartHome-Modellhauses mit realitätsnaher Steuerung.
+- Sensorik
+  - Anbindung von Sensoren (Temperatur, Helligkeit, Türkontakt) via MQTT.
+- Aktorik
+  - Anbindung von Aktoren (Licht, Motoren, Heizung) via MQTT.
+- Software
+  - Integration von Home Assistant zur Steuerung und Visualisierung.
+  - Verwaltung der Containerumgebung über Portainer.
+  - Dokumentation der Einrichtung und Konfiguration.
+- Benutzeroberfläche
+  - Visualisierung und Bedienung über Node-RED.
+- Wartung / Erweiterbarkeit
+  - Vorbereitung für später mögliche Erweiterungen wie Fernzugriff, Spracherkennung etc.
 
 ### Nicht-Ziele
 
-- Keine Entwicklung eigener Sensorhardware (nur Integration vorhandener Komponenten).
-- Keine native App-Entwicklung.
-- Kein Live-Zugriff von außerhalb ohne VPN oder Portweiterleitung.
+- Hardware
+  - Keine Entwicklung eigener Sensorhardware (nur Integration vorhandener Komponenten).
+- Software
+  - Keine native App-Entwicklung.
+- Kommunikation / Sicherheit
+  - Kein Live-Zugriff von außerhalb ohne VPN oder Portweiterleitung.
 
 ### Projektnutzen
 
-- Demonstration moderner Automatisierung im Kleinformat.
-- Praxiserfahrung im Umgang mit Containerisierung, MQTT und Home Assistant.
-- Anwendbares Wissen für spätere berufliche Aufgaben oder größere Hausautomatisierungen.
-- Beitrag zum praxisnahen Unterricht an der HTL Leoben.
+- Praxis / Technologie
+  - Demonstration moderner Automatisierung im Kleinformat.
+  - Praxiserfahrung im Umgang mit Containerisierung, MQTT und Home Assistant.
+  - Anwendbares Wissen für spätere berufliche Aufgaben oder größere Hausautomatisierungen.
+- Bildung
+  - Beitrag zum praxisnahen Unterricht an der HTL Leoben.
 
 ### Projektauftraggeber/in
 
@@ -90,11 +102,10 @@ Im Rahmen unserer Diplomarbeit entwickeln wir ein modellbasiertes SmartHome-Syst
 |                    | In Betriebnahme des IoT Cars                      | Chloe Pripfl            |
 | Betreuer           | Schulischer Ansprechpartner, techn. Kontrolle     | Prof. Leitner           |
 
-
 ### Vorgehen bei Änderungen
 
 - Änderungen werden im GitHub-Repo dokumentiert (Changelog.md).
-- Bei größeren Änderungen (z. B. Sensorwechsel) wird der Betreuer informiert.
+- Bei größeren Änderungen (z. B. Sensorwechsel) wird der Betreuer informiert.
 - Der Projektleiter entscheidet in Absprache mit Team und Betreuer über Annahme.
 
 ## Meilensteine
@@ -127,12 +138,15 @@ Im Rahmen unserer Diplomarbeit entwickeln wir ein modellbasiertes SmartHome-Syst
 
 ### Überblick
 
-- SmartHome automatisch beleuchten
-- Temperaturabhängige Heizsteuerung
-- Türkontaktmeldung per Pushnachricht
-- Visualisierung der Sensordaten im Dashboard
-- Fernsteuerung über Handy (lokales WLAN)
-- Zeitschaltfunktionen
+- Automatisierung / Logik
+  - SmartHome automatisch beleuchten
+  - Temperaturabhängige Heizsteuerung
+  - Zeitschaltfunktionen
+- Kommunikation / Protokolle
+  - Türkontaktmeldung per Pushnachricht
+- Benutzeroberfläche
+  - Visualisierung der Sensordaten im Dashboard
+  - Fernsteuerung über Handy (lokales WLAN)
 
 ### Beispiel: Licht automatisch steuern
 
@@ -154,9 +168,9 @@ Lampe wird für 2 Minuten eingeschaltet.
 
 #### Standardablauf
 
-1. Helligkeit < 200 Lux $\rightarrow$ Bedingung erfüllt
-2. Bewegung erkannt $\rightarrow$ Bedingung erfüllt
-3. Lampe wird via MQTT eingeschaltet
+- Helligkeit < 200 Lux $\rightarrow$ Bedingung erfüllt
+- Bewegung erkannt $\rightarrow$ Bedingung erfüllt
+- Lampe wird via MQTT eingeschaltet
 
 #### Fehlerfälle
 

@@ -10,7 +10,6 @@ Behandelt werden dabei unter anderem:
 - eingesetzte Software-Frameworks
 - fachbezogene Methoden und Vorgehensweisen
 
-
 Darüber hinaus werden in diesem Kapitel sowohl die theoretischen als auch die praktischen Grundlagen zur Realisierung eines Smart-Home-Systems für ein Modellhaus vorgestellt. Ergänzend wird aufgezeigt, inwiefern sich die beschriebenen Konzepte auf ein reales Wohngebäude übertragen lassen.
 
 Ein besonderer Schwerpunkt liegt auf der Installation und Nutzung von Docker auf einem Raspberry Pi sowie auf der Kommunikation zwischen dem Raspberry Pi, dem Arduino Uno und den angebundenen Sensoren und Aktoren.
@@ -29,10 +28,12 @@ Ein besonderer Schwerpunkt liegt auf der Installation und Nutzung von Docker auf
 
 ### Verwendete Frameworks
 
-- FHEM:
-- Node-Red:   
-- MQTT:
-- Portainer:
+- Software
+  - FHEM
+  - Node-Red
+  - Portainer
+- Kommunikation / Protokolle
+  - MQTT
 
 # Teilaufgabe – Smart-Home-Umsetzung mit FHEM und Node-RED
 
@@ -45,7 +46,7 @@ In dieser Diplomarbeit kommt ein Arduino als Mikrocontroller zum Einsatz, der f�
 
 Der Datenaustausch zwischen den einzelnen Systemkomponenten erfolgt über das MQTT-Protokoll. Dieses ermöglicht eine effiziente und zuverlässige Kommunikation zwischen Sensoren, Aktoren und der zentralen FHEM-Instanz.
 
-### 1.1 Sensorik, Aktorik und Steuerung    
+### 1.1 Sensorik, Aktorik und Steuerung
 
 #### 1.1.1 Sensorik
 Sensorik bildet eine zentrale Grundlage eines Smart-Home-Systems, da sie die Erfassung von physikalischen und umgebungsbezogenen Zuständen ermöglicht. Sensoren dienen dazu, Informationen aus der realen Umgebung aufzunehmen und diese in elektrische Signale umzuwandeln, die von Mikrocontrollern oder zentralen Steuereinheiten weiterverarbeitet werden können.
@@ -89,7 +90,7 @@ Der Raspberry Pi ist für die Verarbeitung und Weiterleitung von Sensordaten ver
 
 Ein weiterer Vorteil des Raspberry Pi ist seine geringe Leistungsaufnahme bei gleichzeitig hoher Flexibilität. Dank integrierter Netzwerk- und Schnittstellenfunktionen kann er problemlos in bestehende Smart-Home-Infrastrukturen integriert und bei Bedarf erweitert werden.
 
-Aufgrund seiner Vielseitigkeit, der guten Unterstützung durch die Community sowie der Eignung für den Dauerbetrieb wird der Raspberry Pi in dieser Diplomarbeit als zentrale Plattform für den Betrieb und die Koordination des Smart-Home-Systems eingesetzt 
+Aufgrund seiner Vielseitigkeit, der guten Unterstützung durch die Community sowie der Eignung für den Dauerbetrieb wird der Raspberry Pi in dieser Diplomarbeit als zentrale Plattform für den Betrieb und die Koordination des Smart-Home-Systems eingesetzt
 
 ### 1.2 Frameworks
 
@@ -113,7 +114,7 @@ Ein wesentlicher Vorteil von Node-RED ist die Unterstützung zahlreicher Kommuni
 
 Zusätzlich besteht die Möglichkeit, eigene Funktionslogiken mithilfe von JavaScript zu implementieren, wodurch Node-RED flexibel erweitert werden kann. Über optionale Erweiterungen wie Dashboards können zudem grafische Benutzeroberflächen zur Visualisierung von Daten und zur manuellen Steuerung erstellt werden.
 
-Aufgrund seiner übersichtlichen grafischen Programmierumgebung, der hohen Erweiterbarkeit und der aktiven Community eignet sich Node-RED besonders für die Entwicklung individueller Smart-Home-Lösungen. Daher wird das Framework in dieser Diplomarbeit als zentrales Werkzeug zur Umsetzung von Automatisierungs- und Steuerungsprozessen verwendet. 
+Aufgrund seiner übersichtlichen grafischen Programmierumgebung, der hohen Erweiterbarkeit und der aktiven Community eignet sich Node-RED besonders für die Entwicklung individueller Smart-Home-Lösungen. Daher wird das Framework in dieser Diplomarbeit als zentrales Werkzeug zur Umsetzung von Automatisierungs- und Steuerungsprozessen verwendet.
 
 #### 1.2.3 MQTT
 MQTT (Message Queuing Telemetry Transport) ist ein leichtgewichtiges, ereignisbasiertes Kommunikationsprotokoll, das speziell für den Einsatz in ressourcenbeschränkten Systemen entwickelt wurde. Aufgrund seines geringen Overheads und der hohen Zuverlässigkeit wird MQTT häufig in Smart-Home- und Internet-of-Things-Anwendungen eingesetzt.
@@ -125,7 +126,6 @@ In einem Smart-Home-System ermöglicht MQTT eine klare Trennung zwischen Datener
 Ein weiterer Vorteil von MQTT ist die Unterstützung verschiedener Qualitätsstufen (Quality of Service), die festlegen, wie zuverlässig Nachrichten übertragen werden. Zusätzlich bietet das Protokoll Mechanismen wie Retained Messages und Last Will, die insbesondere in Smart-Home-Systemen zur Erhöhung der Ausfallsicherheit beitragen.
 
 Aufgrund seiner Effizienz, der einfachen Implementierung und der guten Integration in bestehende Smart-Home-Frameworks eignet sich MQTT besonders für die Kommunikation zwischen Sensoren, Aktoren und zentralen Steuerungssystemen. Aus diesen Gründen wird MQTT in dieser Diplomarbeit als zentrales Kommunikationsprotokoll für den Datenaustausch innerhalb des Smart-Home-Systems eingesetzt.
-
 
 #### 1.2.4 Portainer
 Portainer ist eine webbasierte Management- und Verwaltungsplattform zur einfachen Administration von containerbasierten Anwendungen. Die Software wird hauptsächlich in Verbindung mit Docker eingesetzt und ermöglicht es, Container, Images, Netzwerke und Volumes über eine grafische Benutzeroberfläche zu verwalten. Dadurch wird die Nutzung von Container-Technologien auch ohne tiefgehende Kommandozeilenkenntnisse erleichtert.
@@ -140,9 +140,6 @@ Aufgrund der übersichtlichen Benutzeroberfläche, der einfachen Handhabung und 
 
 ## Praktische Arbeit
 
-
-
-
 ### Auswertung der Ergebnisse
 
 Anhand von XY kann man folgende Tabelle ableiten:
@@ -154,4 +151,3 @@ Anhand von XY kann man folgende Tabelle ableiten:
 |    1  |    1 |     1   |     1  |
 
 : Eine Tolle tabelle
-

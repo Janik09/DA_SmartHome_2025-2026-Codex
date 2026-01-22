@@ -1,42 +1,42 @@
 # Zielsetzung
 
-
-
 ## Motivation der Arbeit
 
 Die Motivation für diese Diplomarbeit ergibt sich aus der zunehmenden Relevanz von Smart-Home- und IoT-Technologien in Alltag, Industrie und Ausbildung. Gleichzeitig zeigt sich, dass der Einstieg in diese Themenbereiche aufgrund der Vielzahl an Technologien, Frameworks und Schnittstellen komplex ist. Besonders im schulischen Umfeld fehlt häufig eine praxisnahe, strukturierte Umsetzung, die Theorie und Praxis sinnvoll miteinander verbindet.
 
 Diese Arbeit soll zeigen, wie moderne Automatisierungs- und IoT-Konzepte verständlich aufgebaut, praktisch umgesetzt und systematisch dokumentiert werden können. Durch die Aufteilung in mehrere Teilbereiche und Ausarbeitungen wird außerdem Teamarbeit gefördert und die Zusammenarbeit verschiedener technischer Disziplinen realitätsnah abgebildet.
 
-
 ## Ziel der Diplomarbeit
 
 Ziel der Diplomarbeit ist die Konzeption, Umsetzung und Dokumentation eines modularen Smart-Home- und IoT-Gesamtsystems anhand mehrerer praxisnaher Teilprojekte. Dabei soll ein funktionsfähiges Modell entstehen, das folgende Aspekte vereint:
 
-- Aufbau und Modellierung eines realitätsnahen Modellhauses
-- Einsatz von Mikrocontrollern zur Anbindung von Sensoren und Aktoren
-- Zentrale Steuerung und Automatisierung mittels Smart-Home-Frameworks
-- Nutzung standardisierter Kommunikationsprotokolle
-- Trennung von Hardware-, Kommunikations- und Steuerungsebene
-- Verständliche Dokumentation der theoretischen Grundlagen und der praktischen Umsetzung
+- Hardware
+  - Aufbau und Modellierung eines realitätsnahen Modellhauses
+  - Einsatz von Mikrocontrollern zur Anbindung von Sensoren und Aktoren
+- Software
+  - Zentrale Steuerung und Automatisierung mittels Smart-Home-Frameworks
+  - Verständliche Dokumentation der theoretischen Grundlagen und der praktischen Umsetzung
+- Kommunikation / Protokolle
+  - Nutzung standardisierter Kommunikationsprotokolle
+- Systemarchitektur
+  - Trennung von Hardware-, Kommunikations- und Steuerungsebene
 
 Das System soll modular, erweiterbar und nachvollziehbar aufgebaut sein, sodass einzelne Komponenten unabhängig voneinander angepasst oder erweitert werden können.
-
-
 
 ## Nicht-Ziele der Diplomarbeit
 
 Die Diplomarbeit verfolgt bewusst nicht das Ziel, ein marktreifes oder industriell zertifiziertes Smart-Home-Produkt zu entwickeln. Ebenso wenig sollen folgende Punkte erreicht werden:
 
-- Entwicklung einer vollständig kommerziellen Smart-Home-Lösung  
-- Umsetzung eines sicherheitszertifizierten Systems für den produktiven Einsatz  
-- Vollständige Abdeckung aller Smart-Home- oder IoT-Anwendungsfälle  
-- Optimierung auf maximale Performance oder industrielle Skalierung  
-- Entwicklung eigener Hardware oder eigener Kommunikationsprotokolle  
+- Software / Produktreife
+  - Entwicklung einer vollständig kommerziellen Smart-Home-Lösung
+  - Umsetzung eines sicherheitszertifizierten Systems für den produktiven Einsatz
+  - Optimierung auf maximale Performance oder industrielle Skalierung
+- Umfang
+  - Vollständige Abdeckung aller Smart-Home- oder IoT-Anwendungsfälle
+- Hardware / Kommunikation
+  - Entwicklung eigener Hardware oder eigener Kommunikationsprotokolle
 
 Der Fokus liegt auf einer didaktisch sinnvollen, technisch korrekten und nachvollziehbaren Umsetzung im Rahmen einer schulischen Diplomarbeit.
-
-
 
 ## Veränderung durch diese Arbeit
 
