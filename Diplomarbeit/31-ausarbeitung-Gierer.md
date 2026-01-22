@@ -36,12 +36,11 @@ Der Fokus liegt auf der Einrichtung von Docker auf dem Raspberry Pi sowie auf de
 
 ## Verwendete Frameworks
 
-- **Home Assistant**Dient als zentrales Steuerelement des Modellhauses. Es wird praxisnah simuliert, wie von einem zentralen Standort aus sämtliche Geräte gesteuert und überwacht werden können. [@ha_installation; @aavild_distributed_homeassistant_2024]
-- **Node-RED**Ermöglicht die einfache Erstellung und Automatisierung von Logiken. Sensordaten wie Temperatur oder Helligkeit können verarbeitet und entsprechende Aktoren angesteuert werden. [@nodered_homepage]
-- **MQTT**Wird als Kommunikationsprotokoll zwischen Mikrocontroller (Arduino Uno), Raspberry Pi und Home Assistant verwendet. Es ermöglicht eine zuverlässige und schnelle Datenübertragung. [@oasis_mqtt_v5_2019; @agyemang_mqtt_2022; @ha_mqtt_integration]
-- **Portainer**Dient zur übersichtlichen Verwaltung aller laufenden Docker-Container über ein Webinterface. [@portainer_docs]
-- **Firmata**
-  Firmata ist ein Kommunikationsprotokoll, mit dem ein Computer (in diesem Fall der Raspberry Pi) einen Mikrocontroller (Arduino Uno) direkt steuern kann. Auf dem Mikrocontroller läuft dabei das *StandardFirmata*-Sketch, welches das Setzen von Pins sowie das Lesen von Eingängen ermöglicht. [@arduino_firmata_docs; @firmata_arduino_github]
+- **Home Assistant**: Dient als zentrales Steuerelement des Modellhauses. Es wird praxisnah simuliert, wie von einem zentralen Standort aus sämtliche Geräte gesteuert und überwacht werden können. [@ha_installation; @aavild_distributed_homeassistant_2024]
+- **Node-RED**: Ermöglicht die einfache Erstellung und Automatisierung von Logiken. Sensordaten wie Temperatur oder Helligkeit können verarbeitet und entsprechende Aktoren angesteuert werden. [@nodered_homepage]
+- **MQTT**: Wird als Kommunikationsprotokoll zwischen Mikrocontroller (Arduino Uno), Raspberry Pi und Home Assistant verwendet. Es ermöglicht eine zuverlässige und schnelle Datenübertragung. [@oasis_mqtt_v5_2019; @agyemang_mqtt_2022; @ha_mqtt_integration]
+- **Portainer**: Dient zur übersichtlichen Verwaltung aller laufenden Docker-Container über ein Webinterface. [@portainer_docs]
+- **Firmata**: Firmata ist ein Kommunikationsprotokoll, mit dem ein Computer (in diesem Fall der Raspberry Pi) einen Mikrocontroller (Arduino Uno) direkt steuern kann. Auf dem Mikrocontroller läuft dabei das *StandardFirmata*-Sketch, welches das Setzen von Pins sowie das Lesen von Eingängen ermöglicht. [@arduino_firmata_docs; @firmata_arduino_github]
 
 ---
 
@@ -221,11 +220,11 @@ Es wird eine `docker-compose.yaml` Datei erstellt, die sich in einem eigenen Unt
 
 **Vorgehensweise:**
 
-1. Wechsel in das gewünschte Unterverzeichnis
-2. Erstellen der Datei `docker-compose.yaml`
-3. Einfügen des Codes
-4. Speichern der Datei
-5. Setzen der erforderlichen Berechtigungen
+- Wechsel in das gewünschte Unterverzeichnis
+- Erstellen der Datei `docker-compose.yaml`
+- Einfügen des Codes
+- Speichern der Datei
+- Setzen der erforderlichen Berechtigungen
 
 ---
 

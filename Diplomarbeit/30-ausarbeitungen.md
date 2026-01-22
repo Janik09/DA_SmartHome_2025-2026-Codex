@@ -1,20 +1,19 @@
-# Aufgabenstellung 
+# Aufgabenstellung
 
 ## Auftraggeber
 Wer ist der Auftraggeber, wie ist es zu dieser Arbeit gekommen, was verspricht sich der Auftraggeber davon
 
 ## Ausgangssituation
 
-Eine allgemeine Aufgabenstellung 
+Eine allgemeine Aufgabenstellung
 
-* Was ist die derzeitige Situation ? 
-* Wie wird derzeit gearbeitet ?
-
+- Was ist die derzeitige Situation?
+- Wie wird derzeit gearbeitet?
 
 ### So gehen Zitate
 
 Hier ein einzel Zitat eines Buches das auf der Seite 17 zu finden ist:  
-([@hattie_lernen_2013] S. 17) 
+([@hattie_lernen_2013] S. 17)
 
 Zitatsammlung:  
 (vergleich dazu @heise oder @t3n)  
@@ -42,11 +41,11 @@ Wichtig ist es, das beim Author die verwendete KI eingetragen wird (mit Versions
   url={https://chat.openai.com/c/ef535195-0e39-4d5c-9c85-cdb7ec18ad03},
   urldate = {2023-02-29}
 }
-~~~~~ 
+~~~~~
 
 Oben sieht man wie ein korrekter Bibtech Eintrag für eine ChatGPT Konversation aussieht. Zusätzlich wurden hier bei URL noch die url des Chats eingetragen - was zwar praktisch ist, uns allerdings nicht von der Pflicht entbindet den Chatverlauf in der DA als PDF einzufügen.
 Anzumerkein ist ebenfalls noch das wir hier ein `unpublished` Tag verwenden weil wir hier eben Quellen verwenden die in dieser Form nicht gepublished wurden.
 
-### Systembeschreibung Y 
+### Systembeschreibung Y
 
-### Systembeschreibung Z 
+### Systembeschreibung Z

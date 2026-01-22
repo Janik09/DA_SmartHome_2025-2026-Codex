@@ -4,35 +4,32 @@
 ## Theorie
 
 ### Einordnung des Aufgabenbereichs
-Mein Teil der Diplomarbeit ist es ein Haus zu modellieren um dieses anschließend mit Sensoren und Aktoren auszustatten. Der Plan ist es ein bereits bestehendes Haus nachzubauen, um es so Real wie möglich zu halten. Das Haus wird mithilfe von Online Downloadbaren Möbel eingerichtet und der Garten wird auf die gleiche weise angedeutet und dekoriert. Vorgesehene ansteuerbare Elemente sind LEDs sowie auch eine Wetterstation welche wir im Unterricht schon gebaut und Programmiert haben. 
+Mein Teil der Diplomarbeit ist es ein Haus zu modellieren um dieses anschließend mit Sensoren und Aktoren auszustatten. Der Plan ist es ein bereits bestehendes Haus nachzubauen, um es so Real wie möglich zu halten. Das Haus wird mithilfe von Online Downloadbaren Möbel eingerichtet und der Garten wird auf die gleiche weise angedeutet und dekoriert. Vorgesehene ansteuerbare Elemente sind LEDs sowie auch eine Wetterstation welche wir im Unterricht schon gebaut und Programmiert haben.
 
 ## 1 Modellierung
 
 ### 1.1 Grundlagen der 3D-Modellierung
 
-Unter 3D-Modellierung versteht man die digitale Erstellung dreidimensionaler Objekte mit spezieller Software. Dabei werden geometrische Elemente wie Punkte, Linien und Flächen verwendet, um virtuelle Modelle mit räumlicher Ausdehnung zu erzeugen. Diese Modelle besitzen neben Länge und Breite auch eine Tiefe und können dadurch realitätsnah dargestellt und weiterverarbeitet werden. 
+Unter 3D-Modellierung versteht man die digitale Erstellung dreidimensionaler Objekte mit spezieller Software. Dabei werden geometrische Elemente wie Punkte, Linien und Flächen verwendet, um virtuelle Modelle mit räumlicher Ausdehnung zu erzeugen. Diese Modelle besitzen neben Länge und Breite auch eine Tiefe und können dadurch realitätsnah dargestellt und weiterverarbeitet werden.
 [@3D-Modellierung-Adobe]
 
-### 1.2 Ablauf der 3D-Modellierung  
+### 1.2 Ablauf der 3D-Modellierung
 
-Der Prozess der 3D-Modellierung lässt sich in mehrere grundlegende Schritte unterteilen. Diese Abfolge stellt einen allgemeinen Überblick dar, wobei der genaue Arbeitsablauf je nach verwendeter Software, persönlicher Arbeitsweise oder Projektanforderungen variieren kann. 
+Der Prozess der 3D-Modellierung lässt sich in mehrere grundlegende Schritte unterteilen. Diese Abfolge stellt einen allgemeinen Überblick dar, wobei der genaue Arbeitsablauf je nach verwendeter Software, persönlicher Arbeitsweise oder Projektanforderungen variieren kann.
 
-1. Konzeptphase  
-Zu Beginn steht die Ideenfindung. In dieser Phase wird das geplante Objekt konzeptionell ausgearbeitet, beispielsweise durch Skizzen auf Papier oder einfache digitale Entwürfe. Ziel ist es, eine klare Vorstellung des Modells zu entwickeln, bevor mit der eigentlichen Modellierung begonnen wird.
-
-2. Modellierungsphase  
-In diesem Schritt wird das Objekt mithilfe einer 3D-Software erstellt. Dabei kommen unterschiedliche Modellierungstechniken zum Einsatz. Häufig wird mit geometrischen Grundelementen gearbeitet, die aus Punkten, Kanten und Flächen bestehen und schrittweise zu einem dreidimensionalen Modell zusammengesetzt werden. Je nach Software können auch alternative Methoden verwendet werden, die ein besonders intuitives Arbeiten ermöglichen.
-
-3. Texturierung  
-Nach der Erstellung der Grundform werden dem Modell Materialien und Oberflächen zugewiesen. Diese bestimmen das visuelle Erscheinungsbild und verleihen dem Objekt Farbe, Struktur und Detailtiefe. Texturen können individuell erstellt, automatisch generiert oder aus Bildvorlagen abgeleitet werden.
-
-4. Rendering und Nachbearbeitung  
-Im letzten Schritt wird das fertige Modell visualisiert. Dabei werden Beleuchtung, Schatten und weitere visuelle Effekte berücksichtigt, um realistische oder stilisierte Darstellungen zu erzeugen. Dieser Vorgang erfordert in der Regel eine hohe Rechenleistung. Optional können die erzeugten Bilder oder Animationen anschließend weiterbearbeitet werden, um das Endergebnis zu optimieren.  
+- Konzeptphase
+  - Zu Beginn steht die Ideenfindung. In dieser Phase wird das geplante Objekt konzeptionell ausgearbeitet, beispielsweise durch Skizzen auf Papier oder einfache digitale Entwürfe. Ziel ist es, eine klare Vorstellung des Modells zu entwickeln, bevor mit der eigentlichen Modellierung begonnen wird.
+- Modellierungsphase
+  - In diesem Schritt wird das Objekt mithilfe einer 3D-Software erstellt. Dabei kommen unterschiedliche Modellierungstechniken zum Einsatz. Häufig wird mit geometrischen Grundelementen gearbeitet, die aus Punkten, Kanten und Flächen bestehen und schrittweise zu einem dreidimensionalen Modell zusammengesetzt werden. Je nach Software können auch alternative Methoden verwendet werden, die ein besonders intuitives Arbeiten ermöglichen.
+- Texturierung
+  - Nach der Erstellung der Grundform werden dem Modell Materialien und Oberflächen zugewiesen. Diese bestimmen das visuelle Erscheinungsbild und verleihen dem Objekt Farbe, Struktur und Detailtiefe. Texturen können individuell erstellt, automatisch generiert oder aus Bildvorlagen abgeleitet werden.
+- Rendering und Nachbearbeitung
+  - Im letzten Schritt wird das fertige Modell visualisiert. Dabei werden Beleuchtung, Schatten und weitere visuelle Effekte berücksichtigt, um realistische oder stilisierte Darstellungen zu erzeugen. Dieser Vorgang erfordert in der Regel eine hohe Rechenleistung. Optional können die erzeugten Bilder oder Animationen anschließend weiterbearbeitet werden, um das Endergebnis zu optimieren.
 [@3D-Modellierung-Adobe]
 
 ### 1.3 Arbeiten mit Skizzen
 
-Bevor ein dreidimensionales Objekt erstellt werden kann, wird in der Regel zunächst eine zweidimensionale Skizze angefertigt. Diese Skizze dient als Grundlage für die spätere Modellierung und definiert die Form sowie die grundlegenden Abmessungen des Objekts. Anschließend wird die 2D-Geometrie in die dritte Dimension überführt, indem sie entlang einer Achse extrudiert oder auf andere Weise räumlich erweitert wird. Auf diese Weise entsteht ein Volumenkörper, der anschließend weiterbearbeitet, verfeinert und an die gewünschten Anforderungen angepasst werden kann. 
+Bevor ein dreidimensionales Objekt erstellt werden kann, wird in der Regel zunächst eine zweidimensionale Skizze angefertigt. Diese Skizze dient als Grundlage für die spätere Modellierung und definiert die Form sowie die grundlegenden Abmessungen des Objekts. Anschließend wird die 2D-Geometrie in die dritte Dimension überführt, indem sie entlang einer Achse extrudiert oder auf andere Weise räumlich erweitert wird. Auf diese Weise entsteht ein Volumenkörper, der anschließend weiterbearbeitet, verfeinert und an die gewünschten Anforderungen angepasst werden kann.
 
 <!-- ![Skizze](img/Skizze.png)-->
 
@@ -44,7 +41,7 @@ In CAD-Programmen stehen zahlreiche Werkzeuge zur Verfügung, mit denen dreidime
 
 Bei der Volumenmodellierung arbeitet man mit geschlossenen Körpern, die ein klares Innenvolumen haben. Dadurch lassen sich Bauteile genau konstruieren, und man kann zum Beispiel ihr Gewicht, Material oder ihre Stabilität berechnen. Diese Methode eignet sich besonders für technische Teile, weil sie eine stabile und verlässliche Form liefert.
 
-Die Flächenmodellierung arbeitet dagegen nur mit einzelnen Oberflächen, ohne dass ein richtiges Volumen entsteht. Sie wird oft für komplexe oder organische Formen genutzt, wie sie etwa in der Automobil- oder Flugzeuggestaltung vorkommen. Mit dieser Methode lassen sich sehr detaillierte und geschwungene Formen erstellen, allerdings muss man genau auf die Übergänge zwischen den Flächen achten, damit das Modell sauber bleibt. 
+Die Flächenmodellierung arbeitet dagegen nur mit einzelnen Oberflächen, ohne dass ein richtiges Volumen entsteht. Sie wird oft für komplexe oder organische Formen genutzt, wie sie etwa in der Automobil- oder Flugzeuggestaltung vorkommen. Mit dieser Methode lassen sich sehr detaillierte und geschwungene Formen erstellen, allerdings muss man genau auf die Übergänge zwischen den Flächen achten, damit das Modell sauber bleibt.
 
 ### 1.5 Strukturierung komplexer Modelle
 
@@ -64,7 +61,7 @@ Neben der eigenen Modellierung besteht die Möglichkeit, auf externe 3D-Modelle 
 
 Der Einsatz externer Modelle kann den Modellierungsprozess deutlich beschleunigen, da häufig verwendete oder standardisierte Objekte nicht vollständig neu erstellt werden müssen. Diese Modelle können in das eigene CAD-Projekt importiert und bei Bedarf angepasst oder weiterverarbeitet werden.
 
-Solche Modelle eignen sich auch für die physische Umsetzung mithilfe eines 3D-Druckers. Dabei können heruntergeladene Modelle ausgedruckt und anschließend in ein Projekt integriert werden. Voraussetzung hierfür ist jedoch, dass die Modelle korrekt skaliert sind und den technischen Anforderungen des jeweiligen Druckverfahrens entsprechen. Durch den gezielten Einsatz externer Modelle lässt sich der Arbeitsaufwand reduzieren, während gleichzeitig ein hoher Detailgrad erreicht werden kann. 
+Solche Modelle eignen sich auch für die physische Umsetzung mithilfe eines 3D-Druckers. Dabei können heruntergeladene Modelle ausgedruckt und anschließend in ein Projekt integriert werden. Voraussetzung hierfür ist jedoch, dass die Modelle korrekt skaliert sind und den technischen Anforderungen des jeweiligen Druckverfahrens entsprechen. Durch den gezielten Einsatz externer Modelle lässt sich der Arbeitsaufwand reduzieren, während gleichzeitig ein hoher Detailgrad erreicht werden kann.
 
 ## 2 CAD-Programme
 
@@ -72,7 +69,7 @@ Solche Modelle eignen sich auch für die physische Umsetzung mithilfe eines 3D-D
 
 CAD-Programme sind spezielle Softwareprogramme, die zur Erstellung und Bearbeitung von digitalen Zeichnungen und Modellen verwendet werden. Sie helfen dabei, technische Entwürfe übersichtlich und präzise darzustellen und dienen als wichtige Grundlage für die weitere Planung und Umsetzung.
 
->CAD-Programme werden in der Architektur, im Ingenieurwesen und im Baugewerbe eingesetzt, um Projekte zu entwerfen und Konstruktionsunterlagen, wie z. B. Konstruktions- und Fertigungszeichnungen, zu erstellen. 
+>CAD-Programme werden in der Architektur, im Ingenieurwesen und im Baugewerbe eingesetzt, um Projekte zu entwerfen und Konstruktionsunterlagen, wie z. B. Konstruktions- und Fertigungszeichnungen, zu erstellen.
 
 [@CAD-Programme-ALLPLAN]
 
@@ -80,7 +77,7 @@ CAD-Programme sind spezielle Softwareprogramme, die zur Erstellung und Bearbeitu
 
 CAD ist die Abkürzung für computergestütztes Zeichnen bzw. computergestütztes Entwerfen. Während Bau- und Konstruktionszeichnungen früher manuell auf Papier erstellt wurden, werden diese Aufgaben heute größtenteils mithilfe spezieller Software durchgeführt. CAD-Programme ermöglichen es, Entwürfe digital zu erstellen und sowohl in zweidimensionaler als auch in dreidimensionaler Form darzustellen. Dadurch können Zeichnungen ausgedruckt oder digitale 3D-Modelle weiterverwendet und geteilt werden.
 
-Der Einsatz von CAD-Software erleichtert es, unterschiedliche Entwurfsvarianten zu vergleichen und komplexe Konstruktionen anschaulich darzustellen. Zudem erlauben CAD-Programme eine sehr präzise Arbeitsweise, was bereits in der Planungsphase zu einer höheren Genauigkeit führt. Diese Präzision trägt dazu bei, Fehler während der Umsetzung zu reduzieren, wodurch Zeit und Kosten eingespart werden können. Darüber hinaus unterstützt die digitale Planung ein effizienteres und nachhaltigeres Arbeiten. 
+Der Einsatz von CAD-Software erleichtert es, unterschiedliche Entwurfsvarianten zu vergleichen und komplexe Konstruktionen anschaulich darzustellen. Zudem erlauben CAD-Programme eine sehr präzise Arbeitsweise, was bereits in der Planungsphase zu einer höheren Genauigkeit führt. Diese Präzision trägt dazu bei, Fehler während der Umsetzung zu reduzieren, wodurch Zeit und Kosten eingespart werden können. Darüber hinaus unterstützt die digitale Planung ein effizienteres und nachhaltigeres Arbeiten.
 
 [@CAD-Programme-ALLPLAN]
 
@@ -96,7 +93,7 @@ Die Grundlagen der Elektronik beschäftigen sich damit, wie Strom und Spannung f
 
 ### 3.2 Überblick über elektronische Bauteile
 
-Elektronische Bauteile sind einzelne Bestandteile, aus denen elektronische Schaltungen aufgebaut werden. Sie übernehmen unterschiedliche Aufgaben, wie das Steuern, Verarbeiten oder Speichern elektrischer Signale. Diese Bauteile bilden die Grundlage moderner elektronischer Systeme und kommen in zahlreichen technischen Anwendungen zum Einsatz, angefangen bei einfachen Alltagsgeräten bis hin zu komplexen elektronischen Systemen wie Computern oder automatisierten Anlagen. Man unterscheidet bei den jeweiligen Bauteil ob er Aktiv(Transistor, Diode) oder Passiv(Widerstand, Kondensator) ist. 
+Elektronische Bauteile sind einzelne Bestandteile, aus denen elektronische Schaltungen aufgebaut werden. Sie übernehmen unterschiedliche Aufgaben, wie das Steuern, Verarbeiten oder Speichern elektrischer Signale. Diese Bauteile bilden die Grundlage moderner elektronischer Systeme und kommen in zahlreichen technischen Anwendungen zum Einsatz, angefangen bei einfachen Alltagsgeräten bis hin zu komplexen elektronischen Systemen wie Computern oder automatisierten Anlagen. Man unterscheidet bei den jeweiligen Bauteil ob er Aktiv(Transistor, Diode) oder Passiv(Widerstand, Kondensator) ist.
 
 Der Unterschied zwischen diesen zwei Kategorien ist:
 
@@ -109,14 +106,14 @@ Der Unterschied zwischen diesen zwei Kategorien ist:
 
 ### 3.3 Strom, Spannung und Widerstand
 
-#### Strom  
+#### Strom
 
 Elektrischer Strom bezeichnet den gerichteten Fluss von elektrischen Ladungsträgern, meist Elektronen, durch einen leitfähigen Werkstoff(Silber, Kupfer, Gold, Aluminium). Er stellt eine Form von Energie dar, mit der elektrische Geräte und Schaltungen betrieben werden können, welche allgemein als Verbraucher bezeichnet werden.
 Die Stärke des elektrischen Stroms wird in der Einheit Ampere (A) gemessen. Aufgrund seiner vielseitigen Einsatzmöglichkeiten ist elektrischer Strom eine der am häufigsten genutzten Energieformen in technischen Systemen.
 
 #### Spannung
 Die elektrische Spannung beschreibt den Unterschied des elektrischen Potentials zwischen zwei Punkten in einer Schaltung. Sie ist dafür verantwortlich, dass elektrischer Strom überhaupt fließen kann. Die elektrische Spannung wird in der Einheit Volt (V) angegeben.
-Als eine der grundlegenden Größen der Elektrotechnik spielt die Spannung eine zentrale Rolle bei der Berechnung von Stromstärke und elektrischem Widerstand. 
+Als eine der grundlegenden Größen der Elektrotechnik spielt die Spannung eine zentrale Rolle bei der Berechnung von Stromstärke und elektrischem Widerstand.
 
 #### Widerstand
 Der elektrische Widerstand beschreibt, wie stark der Stromfluss in einem Leiter oder Bauteil begrenzt wird. Er hängt von den Materialeigenschaften sowie von der Bauform des Leiters ab und bestimmt, wie leicht oder schwer sich elektrische Ladungen bewegen können.
@@ -129,7 +126,7 @@ Ein hoher Widerstand reduziert den Strom, während ein niedriger Widerstand eine
 ![Ohmsche Gesetz[@Ohmsche-Gesetz-Bild]](img/URI.jpg)
 
 Das Ohmsche Gesetz beschreibt den Zusammenhang zwischen elektrischer Spannung(U), Stromstärke(I) und Widerstand(R) in einem Stromkreis. Mithilfe dieser Beziehung lassen sich unbekannte Größen berechnen, wenn zwei der drei Werte bekannt sind.
-Dieses Gesetz ist besonders wichtig für den praktischen Einsatz elektronischer Bauteile, da es hilft, den passenden Widerstand zu bestimmen. Wird ein Bauteil mit einer zu hohen Stromstärke betrieben, kann dies zu Beschädigungen oder zum Ausfall führen. Durch die richtige Berechnung lässt sich ein sicherer und zuverlässiger Betrieb gewährleisten. 
+Dieses Gesetz ist besonders wichtig für den praktischen Einsatz elektronischer Bauteile, da es hilft, den passenden Widerstand zu bestimmen. Wird ein Bauteil mit einer zu hohen Stromstärke betrieben, kann dies zu Beschädigungen oder zum Ausfall führen. Durch die richtige Berechnung lässt sich ein sicherer und zuverlässiger Betrieb gewährleisten.
 
 >Das Ohmsche Gesetz besagt, dass der Strom, der durch einen Widerstand fließt, direkt proportional zur angelegten Spannung und umgekehrt proportional zum Widerstand ist. Je höher die angelegte Spannung ist, desto größer ist der Strom. Aber je größer der Widerstand ist, desto geringer ist der Strom.[@Spannung-Strom-Widerstand-ElektronikKompendium]
 
@@ -142,27 +139,29 @@ Beim Rechnen mit dem Ohmschen Gesetz kann man sich merken, dass die elektrische 
 Die Spannungsversorgung ist ein grundlegender Bestandteil elektronischer Schaltungen. Ihre Aufgabe besteht darin, eine vorhandene Energiequelle, wie beispielsweise Netzstrom oder eine Batterie, in eine für die jeweilige Schaltung geeignete und möglichst konstante Gleichspannung umzuwandeln. Viele elektronische Bauteile benötigen feste Versorgungsspannungen, etwa 5 V oder 12 V, um zuverlässig arbeiten zu können. Dabei muss die Spannungsversorgung Schwankungen der Eingangsspannung sowie Änderungen der Stromaufnahme ausgleichen, damit die Ausgangsspannung stabil bleibt. [@Spannungsquellen-ElectronicsTutorials]
 
 ### Arten von Spannungsversorgungen
-- Netzteile:
+
+- Netzteile
   - Ist ein Gerät, das den Strom aus der Steckdose in eine benutzbare Gleichspannung für elektronische Geräte umwandelt.
-- Batterien/Akkus: 
+- Batterien/Akkus
   - Bieten mobile Gleichspannungen, die aber mit der Zeit schwanken.
-- Generator:
+- Generator
   - Wandelt mechanische Energie in elektrischen Strom um.
-- Konstantspannungsquellen: 
-  - Versucht immer die gleiche Spannung am Ausgang zu liefern, egal wie sich Last oder Eingangsspannung verändert. 
+- Konstantspannungsquellen
+  - Versucht immer die gleiche Spannung am Ausgang zu liefern, egal wie sich Last oder Eingangsspannung verändert.
 [@Spannungsquellen-ElectronicsTutorials]
 
 ### Methoden zur Spannungsstabilisierung
-- Z-Diode: 
+
+- Z-Diode
   - Einfachste Methode, gut für geringe, konstante Ströme, aber mit höherem Spannungsabfall und Wärmeentwicklung bei höheren Strömen.
-- Spannungsregler (IC): 
+- Spannungsregler (IC)
   - Integrierte Schaltungen (ICs), die eine sehr genaue und stabile Spannung liefern, auch mit Überstromschutz.
-- Linearregler: 
+- Linearregler
   - Einfache Schaltung, oft mit einem Transistor, erzeugt wenig Rauschen, aber viel Wärme (Verlustleistung).
-- Schaltregler: 
+- Schaltregler
   - Effizienter, wandelt Spannung durch schnelles Schalten; heutzutage dominierend (z.B. in Schaltnetzteilen).
-- Spannungsteiler (Widerstände): 
-  - Nur für spezielle Fälle geeignet, wenn die Stromaufnahme konstant ist, da die Spannung mit abnehmender Batterie (oder steigender Last) abfällt. 
+- Spannungsteiler (Widerstände)
+  - Nur für spezielle Fälle geeignet, wenn die Stromaufnahme konstant ist, da die Spannung mit abnehmender Batterie (oder steigender Last) abfällt.
 [@Schaltungstechnik-Stromversorgung-technik-reicke]
 
 ## 4 Mikrocontroller
@@ -171,7 +170,7 @@ Die Spannungsversorgung ist ein grundlegender Bestandteil elektronischer Schaltu
 
 Mikrocontroller, häufig auch als MCU (Microcontroller Unit) bezeichnet, sind sehr kompakte Recheneinheiten, bei denen alle wesentlichen Komponenten eines Computers auf einem einzigen Chip integriert sind. Dazu zählen unter anderem eine Recheneinheit, Speicher sowie Ein- und Ausgabeschnittstellen. Aufgrund dieses Aufbaus bilden Mikrocontroller ein vollständig in sich geschlossenes System.
 
-Im Gegensatz zu klassischen Mikroprozessoren, wie sie in Personal Computern oder Tablets eingesetzt werden, sind Mikrocontroller für die Ausführung einer klar definierten Aufgabe vorgesehen. Sie führen meist ein einzelnes Programm dauerhaft und wiederholt aus, typischerweise in Form einer Endlosschleife. Solche Anwendungen werden als eingebettete Systeme bezeichnet. Durch ihre Spezialisierung eignen sich Mikrocontroller besonders für automatisierte Steuerungs- und Regelaufgaben. 
+Im Gegensatz zu klassischen Mikroprozessoren, wie sie in Personal Computern oder Tablets eingesetzt werden, sind Mikrocontroller für die Ausführung einer klar definierten Aufgabe vorgesehen. Sie führen meist ein einzelnes Programm dauerhaft und wiederholt aus, typischerweise in Form einer Endlosschleife. Solche Anwendungen werden als eingebettete Systeme bezeichnet. Durch ihre Spezialisierung eignen sich Mikrocontroller besonders für automatisierte Steuerungs- und Regelaufgaben.
 
 [@Mikrocontroller-RS]
 
@@ -197,7 +196,7 @@ Ein weiterer wichtiger Bestandteil ist der interne Oszillator. Dieser erzeugt de
 
 Über sogenannte Ein- und Ausgänge (Input/Output, kurz I/O) kann der Mikrocontroller mit seiner Umgebung kommunizieren. Diese Anschlüsse, meist als Pins ausgeführt, ermöglichen das Einlesen von Signalen von Sensoren sowie das Ansteuern von Aktoren wie LEDs oder Motoren.
 
-Abhängig vom jeweiligen Mikrocontroller sind außerdem zusätzliche Peripherieeinheiten integriert. Dazu zählen unter anderem Timer und Zähler, Analog-Digital-Wandler zur Verarbeitung analoger Signale, Digital-Analog-Wandler sowie Module zur Pulsweitenmodulation (PWM). Diese erweitern die Einsatzmöglichkeiten des Mikrocontrollers und ermöglichen eine flexible Anpassung an unterschiedliche Anwendungen. 
+Abhängig vom jeweiligen Mikrocontroller sind außerdem zusätzliche Peripherieeinheiten integriert. Dazu zählen unter anderem Timer und Zähler, Analog-Digital-Wandler zur Verarbeitung analoger Signale, Digital-Analog-Wandler sowie Module zur Pulsweitenmodulation (PWM). Diese erweitern die Einsatzmöglichkeiten des Mikrocontrollers und ermöglichen eine flexible Anpassung an unterschiedliche Anwendungen.
 
 [@Mikrocontroller-RS]
 
@@ -242,7 +241,6 @@ Der ESP32 ist ein leistungsstarker 32-Bit-Mikrocontroller, der sich vor allem du
 
 Die STM32-Mikrocontroller basieren auf einer 32-Bit-Architektur und sind in vielen unterschiedlichen Varianten erhältlich. Sie zeichnen sich durch hohe Leistungsfähigkeit, Flexibilität und einen professionellen Einsatzbereich aus. STM32-Controller werden häufig in industriellen Anwendungen, in der Automatisierungstechnik oder in technisch anspruchsvollen Projekten verwendet. Sie bieten umfangreiche Konfigurationsmöglichkeiten, zahlreiche Schnittstellen und eine hohe Rechengeschwindigkeit. Aufgrund ihrer Komplexität erfordern sie jedoch meist ein tieferes technisches Verständnis als einfache Arduino-Plattformen.
 
-
 ## 5 Verkabelung
 
 ### 5.1 Grundlagen der Verkabelung
@@ -275,7 +273,18 @@ Eine gemischte Schaltung kombiniert Elemente einer Reihen- und Parallelschaltung
 
 ### 5.3 Verbindungstechniken in der Elektronik
 
-Verbindungstechniken in der Elektronik umfassen lösbare und nicht lösbare Methoden wie Löten (Bauteile auf Platinen), Crimpen (Pressen von Leitern in Verbinder), Schraubanschlüsse (einfach, wiederlösbar), Schneidklemmen (Isolierung wird durchtrennt) und Käfigzugfederklemmen (vibrationssicher). Wichtig sind auch Steckverbinder, Bonding (auf Mikroebene), Kleben mit Leitkleber und spezielle Techniken wie das Spleißen für Glasfasern, um zuverlässige Verbindungen für Strom und Daten zu gewährleisten. 
+Verbindungstechniken in der Elektronik umfassen lösbare und nicht lösbare Methoden, um zuverlässige Verbindungen für Strom und Daten zu gewährleisten:
+
+- Löten (Bauteile auf Platinen)
+- Crimpen (Pressen von Leitern in Verbinder)
+- Schraubanschlüsse (einfach, wiederlösbar)
+- Schneidklemmen (Isolierung wird durchtrennt)
+- Käfigzugfederklemmen (vibrationssicher)
+- Steckverbinder
+- Bonding (auf Mikroebene)
+- Kleben mit Leitkleber
+- Spleißen für Glasfasern
+
 Nicht lösbare Verbindungen
 
 ### 5.4 Löten von Bauteilen
@@ -287,7 +296,7 @@ Dieses Verfahren wird insbesondere bei der Durchsteckmontage (THT) und der Oberf
 
 ### 5.5 Crimpen von Kabeln
 
-Crimpen bezeichnet das Verfahren, bei dem ein Kabel mit einem Steckverbinder verbunden wird. Dabei wird zunächst ein Stück der Kabelisolierung entfernt, sodass die einzelnen Leiter freigelegt sind. Die freigelegten Drähte werden anschließend in einen Kontakt(z.B Aderendhülse) eingeführt und mit einer Crimpzange zusammengepresst. Abschließend wird ein Kunststoffkopf aufgebracht, der die Verbindung schützt und stabilisiert. 
+Crimpen bezeichnet das Verfahren, bei dem ein Kabel mit einem Steckverbinder verbunden wird. Dabei wird zunächst ein Stück der Kabelisolierung entfernt, sodass die einzelnen Leiter freigelegt sind. Die freigelegten Drähte werden anschließend in einen Kontakt(z.B Aderendhülse) eingeführt und mit einer Crimpzange zusammengepresst. Abschließend wird ein Kunststoffkopf aufgebracht, der die Verbindung schützt und stabilisiert.
 [@Richtig-Crimpen-Jungheinrich-PROFISHOP]
 
 ![Crimpen[@Crimpen-Anleitung-Conrad]](img/korrekte-crimpverbindung.jpg)
@@ -302,7 +311,6 @@ Ein Schaltplan ist eine grafische Darstellung einer elektrischen oder elektronis
 Darüber hinaus werden Schaltpläne häufig als Grundlage für das Layout von Leiterplatten (PCB) verwendet. Da Leiterplatten sehr komplex sein können, erlaubt der Schaltplan, alle Verbindungen und Bauteilpositionen präzise zu planen, bevor die Leiterplatte gefertigt wird. Auf diese Weise dient er sowohl der Dokumentation als auch der fehlerfreien Umsetzung eines Projekts.
 
 [@Schaltplan-Wikipedia]
-
 
 ## 6 Sensoren und Aktoren
 
@@ -330,7 +338,6 @@ Ein funktionierendes Zusammenspiel zwischen Sensoren und Aktoren ist Voraussetzu
 
 [@Sensorik-und-Aktorik-StudySmarter]
 
-
 ### 6.3 Wie Sensoren und Aktoren Zusammenarbeiten
 
 Das Zusammenwirken von Sensoren und Aktoren erfolgt meist in einem wiederkehrenden Ablauf. Zunächst erfassen Sensoren Daten aus der Umgebung. Diese Informationen werden anschließend verarbeitet und ausgewertet, um eine Entscheidung zu treffen. Auf Basis dieser Entscheidung wird schließlich ein Aktor angesteuert, der eine entsprechende Aktion ausführt.
@@ -340,6 +347,5 @@ Ein einfaches Beispiel für diesen Ablauf ist ein automatisches Bewässerungssys
 Damit solche Systeme zuverlässig funktionieren, ist eine sorgfältige Programmierung und Abstimmung der Sensoren und Aktoren notwendig. Nur durch genaue Messungen und präzise Steuerung können automatisierte Systeme korrekt und effizient auf Veränderungen ihrer Umgebung reagieren.
 
 [@Sensorik-und-Aktorik-StudySmarter]
-
 
 ## Praktische Arbeit
